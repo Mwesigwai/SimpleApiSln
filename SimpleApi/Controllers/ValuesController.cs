@@ -20,7 +20,7 @@ namespace SimpleApi.Controllers
 
 
         [HttpGet("{id : int}")]
-        public ActionReult<string> Get(int id)
+        public ActionResult<string> Get(int id)
         {
             //for test purposes is redundant
             return "Isaac Mwesigwa";
